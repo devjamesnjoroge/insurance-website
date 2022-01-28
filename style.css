@@ -422,14 +422,37 @@
   width: 100%;
 }
 
+.container-6 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 8%;
+}
+
+.text3 h1 {
+  color: #fafbfc;
+}
+
+.text3 p {
+  color: #fafbfc;
+  margin-top: 2vh;
+  font-size: small;
+  font-weight: lighter;
+}
+
+#world {
+  width: 40vw;
+  height: 40vh;
+}
+
 .container-form2 {
   height: 70vh;
   width: 60vw;
   display: flex;
   background: #fafbfc;
   position: absolute;
-  margin-top: 65vh;
-  margin-left: 20vw;
+  margin-top: 50vh;
+  margin-left: 15vw;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
 }
 
