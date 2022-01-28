@@ -14,6 +14,7 @@
   padding-top: 1.5rem;
   padding-left: 4vw;
   padding-right: 4vw;
+  flex-wrap: wrap;
 }
 
 .nav ul {
@@ -43,4 +44,14 @@
 
 .button1 .iconify {
   margin-left: 0.8rem;
+}
+
+.bkg1 {
+  background-image: url("images/hero-cover.3.png");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
