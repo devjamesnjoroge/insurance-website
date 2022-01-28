@@ -416,12 +416,6 @@
   width: 100%;
 }
 
-.container-7 {
-  background: rgba(212, 201, 201, 0.137);
-  height: 80vh;
-  width: 100%;
-}
-
 .container-6 {
   display: flex;
   justify-content: center;
@@ -490,6 +484,32 @@
 #contactImg {
   height: 80vh;
   width: 25vw;
+}
+
+.container-7 {
+  background: rgba(212, 201, 201, 0.137);
+  height: 80vh;
+  width: 100%;
+}
+
+.row5 {
+  padding-top: 60vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text4 p {
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 12px;
+  font-weight: 50;
+  margin-top: 2vh;
+}
+
+.row5 button {
+  width: 8vw;
+  background: #23a6f0;
+  color: #fafbfc;
+  border: none;
 }
 
 .footer {
