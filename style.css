@@ -446,18 +446,49 @@
 }
 
 .container-form2 {
-  height: 70vh;
-  width: 60vw;
+  height: 80vh;
+  width: 70%;
   display: flex;
   background: #fafbfc;
   position: absolute;
   margin-top: 50vh;
-  margin-left: 15vw;
+  margin-left: 7%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
 }
 
+.formed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 5vw;
+}
+
+.formed form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formed form input {
+  width: 35vw;
+  height: 5vh;
+  align-self: center;
+  margin: 3%;
+}
+
+.formed form button {
+  width: 35vw;
+  height: 6vh;
+  margin-top: 5%;
+  background: #23a6f0;
+  color: #fafbfc;
+  border: none;
+}
+
 #contactImg {
-  height: 70vh;
+  height: 80vh;
   width: 25vw;
 }
 
