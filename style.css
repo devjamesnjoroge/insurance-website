@@ -15,6 +15,7 @@
   padding-left: 4vw;
   padding-right: 4vw;
   flex-wrap: wrap;
+  height: 80px;
 }
 
 .logo {
@@ -44,7 +45,7 @@
 }
 
 .nav span {
-  margin-left: 10%;
+  margin-left: 8%;
   color: #ffffff;
 }
 
@@ -61,4 +62,25 @@
   top: 0;
   z-index: -1;
   object-fit: cover;
+  opacity: 0.9;
+}
+
+.container-1 {
+  height: 100vh;
+  width: 100%;
+  z-index: -2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-1 h1 {
+  color: #ffffff;
+  font-size: 48px;
+}
+
+.container-1 p {
+  color: #ffffff;
+  margin-top: 3%;
 }
