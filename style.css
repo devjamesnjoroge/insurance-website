@@ -5,6 +5,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.container-fluid {
+  background: rgba(212, 201, 201, 0.137);
+}
+
 .nav {
   display: flex;
   width: 100%;
@@ -62,7 +66,6 @@
   top: 0;
   z-index: -1;
   object-fit: cover;
-  opacity: 0.9;
 }
 
 .container-1 {
@@ -72,8 +75,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(rgb(17, 17, 17), rgb(21, 22, 21), rgb(13, 13, 14), 1);
-  z-index: 99;
 }
 
 .container-1 h1 {
@@ -128,4 +129,10 @@
   color: rgba(0, 0, 0, 0.479);
   font-size: 12px;
   font-weight: 50;
+}
+
+.container-2 {
+  height: 40vh;
+  width: 100%;
+  background-color: #fff;
 }
