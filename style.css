@@ -28,3 +28,19 @@
 .nav ul li a {
   text-decoration: none;
 }
+
+.button1 {
+  background-color: #23a6f0;
+  display: flex;
+  color: #ffffff;
+  padding: 0.7rem;
+  border-radius: 0.2em 0.2em 0.2em 0.2em;
+}
+
+.nav span {
+  margin-left: 15%;
+}
+
+.button1 .iconify {
+  margin-left: 0.8rem;
+}
