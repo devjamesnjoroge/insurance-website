@@ -17,6 +17,10 @@
   flex-wrap: wrap;
 }
 
+.logo {
+  color: #ffffff;
+}
+
 .nav ul {
   list-style: none;
 }
@@ -28,6 +32,7 @@
 
 .nav ul li a {
   text-decoration: none;
+  color: #ffffff;
 }
 
 .button1 {
@@ -39,7 +44,8 @@
 }
 
 .nav span {
-  margin-left: 15%;
+  margin-left: 10%;
+  color: #ffffff;
 }
 
 .button1 .iconify {
@@ -54,4 +60,5 @@
   position: absolute;
   top: 0;
   z-index: -1;
+  object-fit: cover;
 }
