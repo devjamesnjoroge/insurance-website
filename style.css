@@ -672,5 +672,27 @@
   .col-4 {
     width: 70vw;
     height: 30vh;
+    background: #fafbfc;
+    border: none;
+  }
+
+  .users {
+    height: 12vh;
+    width: 24vw;
+  }
+
+  .stars {
+    width: 28vw;
+  }
+
+  .container-4 {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .vectors {
+    height: 12vh;
+    width: 28vw;
   }
 }
