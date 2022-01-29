@@ -518,6 +518,48 @@
 
 .others {
   height: 33vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.rows-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.rows-6 ul li {
+  list-style: none;
+  margin: 0.7em;
+}
+
+.rows-6 ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 12px;
+  font-weight: 50;
+}
+
+.phone {
+  display: flex;
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 12px;
+  font-weight: 50;
+}
+
+.location {
+  display: flex;
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 12px;
+  font-weight: 50;
+}
+
+.mailbox {
+  display: flex;
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 12px;
+  font-weight: 50;
 }
 
 .foot {
