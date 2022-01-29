@@ -565,4 +565,14 @@
 .foot {
   height: 7vh;
   background: rgba(212, 201, 201, 0.137);
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.foot p {
+  color: rgba(0, 0, 0, 0.479);
+  font-size: 14px;
+  font-weight: 50;
 }
