@@ -577,7 +577,7 @@
   font-weight: 50;
 }
 
-@media only screen and (max-width: 850px) {
+@media screen and (max-width: 850px) {
   * {
     overflow-x: hidden;
   }
