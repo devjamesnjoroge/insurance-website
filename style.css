@@ -658,4 +658,19 @@
   .container-2 {
     height: 100vh;
   }
+
+  .container-3 {
+    height: 130vh;
+  }
+
+  .rows-3 {
+    height: 110vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .col-4 {
+    width: 70vw;
+    height: 30vh;
+  }
 }
