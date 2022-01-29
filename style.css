@@ -654,4 +654,8 @@
   .rows p {
     color: rgba(0, 0, 0, 0.479);
   }
+
+  .container-2 {
+    height: 100vh;
+  }
 }
