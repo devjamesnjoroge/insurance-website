@@ -652,10 +652,13 @@
 
   .rows {
     width: 70vw;
-    height: 30vh;
+    height: 25vh;
+    justify-content: space-around;
+    padding: 10%;
   }
 
   .rows p {
+    margin-top: 15%;
     color: rgba(0, 0, 0, 0.479);
   }
 
@@ -764,6 +767,8 @@
 
   .container-6 {
     flex-direction: column;
+    text-align: center;
+    padding: 10%;
   }
 
   #world {
@@ -787,7 +792,7 @@
   #contactImg {
     width: 50vw;
     height: auto;
-    float: right;
+    align-self: center;
   }
 
   .formed {
