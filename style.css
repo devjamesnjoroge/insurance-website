@@ -826,10 +826,26 @@
 
   .container-7 {
     margin-top: 0;
-    height: 30vh;
+    height: 40vh;
   }
 
   .row5 {
     padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-justify: center;
+    padding-top: 20%;
+  }
+
+  .row5 button {
+    margin-top: 10%;
+    height: 5vh;
+    width: 60vw;
+    background: #23a6f0;
+    color: #fafbfc;
+    border: none;
+    border-radius: 0.3em;
   }
 }
