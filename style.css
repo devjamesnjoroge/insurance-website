@@ -26,6 +26,10 @@
   color: #ffffff;
 }
 
+.hiddenIcons {
+  display: none;
+}
+
 .nav ul {
   list-style: none;
 }
@@ -585,15 +589,48 @@
   * {
     overflow-x: hidden;
   }
+
+  .logo h2 {
+    float: left;
+    margin-right: 5vw;
+    color: black;
+  }
+
+  .hiddenIcons {
+    display: flex;
+    float: right;
+    margin-left: 10vw;
+    justify-content: space-evenly;
+  }
+
+  .hiddenIcons .iconify {
+    margin-left: 3vw;
+    color: rgba(0, 0, 0, 0.479);
+  }
+
   .nav {
     display: flex;
     flex-direction: column;
     height: 50vh;
+    text-align: center;
   }
 
   .nav ul {
     display: flex;
     flex-direction: column;
+  }
+
+  .nav ul li {
+    margin: 10% 0;
+  }
+
+  .nav ul li a {
+    color: rgba(0, 0, 0, 0.479);
+    font-size: x-large;
+  }
+
+  .nav span {
+    display: none;
   }
 
   .button1 {
