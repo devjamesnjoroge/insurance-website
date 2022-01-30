@@ -439,15 +439,19 @@
   height: 40vh;
 }
 
-.container-form2 {
+#mobileclass {
+  display: none;
+}
+
+#toggleclass {
   height: 80vh;
   width: 70%;
   display: flex;
   background: #fafbfc;
-  position: absolute;
   margin-top: 50vh;
   margin-left: 7%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+  position: absolute;
 }
 
 .formed {
@@ -756,5 +760,76 @@
 
   .list {
     margin-left: 10vw;
+  }
+
+  .container-6 {
+    flex-direction: column;
+  }
+
+  #world {
+    width: 80vw;
+  }
+
+  #toggleclass {
+    display: none;
+  }
+
+  #mobileclass {
+    height: 118vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #fafbfc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.288);
+  }
+
+  #contactImg {
+    width: 50vw;
+    height: auto;
+    float: right;
+  }
+
+  .formed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5vw;
+  }
+
+  .formed form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: small;
+  }
+
+  .formed form input {
+    width: 70vw;
+    height: 5vh;
+    align-self: center;
+    margin: 3%;
+  }
+
+  .formed form button {
+    width: 70vw;
+    height: 5vh;
+    margin-top: 5%;
+    background: #23a6f0;
+    color: #fafbfc;
+    border: none;
+    align-self: center;
+    border-radius: 0.5em;
+  }
+
+  .container-7 {
+    margin-top: 0;
+    height: 30vh;
+  }
+
+  .row5 {
+    padding: 0;
   }
 }
