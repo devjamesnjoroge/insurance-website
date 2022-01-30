@@ -780,6 +780,8 @@
   }
 
   #mobileclass {
+    margin-top: 0;
+    position: static;
     height: 118vh;
     width: 100vw;
     display: flex;
