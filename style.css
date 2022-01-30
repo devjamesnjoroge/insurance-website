@@ -821,7 +821,7 @@
     color: #fafbfc;
     border: none;
     align-self: center;
-    border-radius: 0.5em;
+    border-radius: 0.3em;
   }
 
   .container-7 {
@@ -847,5 +847,23 @@
     color: #fafbfc;
     border: none;
     border-radius: 0.3em;
+  }
+  .footer {
+    height: auto;
+  }
+
+  .others {
+    height: 100vh;
+    flex-direction: column;
+    padding-left: 30%;
+  }
+
+  .rows-6 ul li {
+    margin-left: 0;
+  }
+
+  .foot {
+    height: 20vh;
+    flex-direction: column;
   }
 }
