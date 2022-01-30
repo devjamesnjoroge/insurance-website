@@ -873,4 +873,13 @@
     height: 20vh;
     flex-direction: column;
   }
+
+  #base {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .phone {
+    margin-top: 2vh;
+  }
 }
